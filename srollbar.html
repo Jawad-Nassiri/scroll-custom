@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Options with Hover Effect</title>
+    <script src="script.js" defer></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #scroll {
+            height: 10px;
+            width: 0;
+            position: fixed;
+            border-radius: 3px;
+            background-image: radial-gradient(circle at top center, rgb(235, 41, 254),rgb(185, 42, 217),
+            rgb(134, 42, 180),rgb(84, 43, 142),rgb(33, 43, 105));
+            /* transition: all 0.1s; */
+        }
+        .gray , .blue{
+            height: 400px;
+        }
+
+        .gray {
+            background-color: #ccc;
+        }
+
+        .blue {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="scroll"></div>
+    <div class="gray"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+    <div class="blue"></div>
+</body>
+</html>
